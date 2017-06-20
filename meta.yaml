@@ -1,0 +1,16 @@
+package:
+  name: ack-grep
+  version: 2.18.0
+
+requirements:
+  run:
+    - m2-perl # [win]
+    - perl # [not win]
+
+test:
+  commands:
+    - ack --version
+
+about:
+  home: https://github.com/sci-bots/ack-grep.recipe
+  license: BSD
